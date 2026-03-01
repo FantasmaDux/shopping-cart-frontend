@@ -1,5 +1,5 @@
 # Frontend часть shopping cart
-![GitHub Created At](https://img.shields.io/github/created-at/FantasmaDux/shoppingCartFrontend?color=bright-green&style=flat-square)
+![GitHub Created At](https://img.shields.io/github/created-at/FantasmaDux/shopping-cart-frontend?color=bright-green&style=flat-square)
 
 Frontend для приложения shopping cart, созданный с помощью react + js.
 
