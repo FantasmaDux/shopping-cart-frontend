@@ -6,7 +6,7 @@ import Cart from './components/Cart';
 import AuthBanner from './components/AuthBanner';
 import LoginPage from './pages/LoginPage';
 import { isAuthenticated, getUserEmail, logout as authLogout, addToCart } from './services/auth';
-import './App.css';
+import './styles/App.css';
 
 function App() {
     const [auth, setAuth] = useState({

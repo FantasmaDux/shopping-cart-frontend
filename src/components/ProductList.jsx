@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/v1';
 
 export default function ProductList({ onAddToCart }) {
     const [products, setProducts] = useState([]);
