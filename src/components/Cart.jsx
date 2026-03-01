@@ -59,7 +59,7 @@ export default function Cart({ token }) {
                 ) : cartItems.length > 0 ? (
                     cartItems.map((item, index) => (
                         <div key={index} className="cart-item">
-                            <p>{item.product?.name || item.productName} - ${item.price || '0.00'} x {item.quantity || 1}</p>
+                            <p>{item.product?.name || item.productName} - ${item.totalPrice || '0.00'} x {item.quantity || 1}</p>
                         </div>
                     ))
                 ) : (
